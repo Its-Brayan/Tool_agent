@@ -87,7 +87,7 @@ agent = create_agent()
 initial_state = {
       "messages" : [
             SystemMessage(content="You are a helpful assistant with access to web search. Use the search tool when you need current information."),
-            HumanMessage(content="When did Raila Odinga die?")
+            HumanMessage(content="What is the price of fuel as of today?")
       ]
 }
 
